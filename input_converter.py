@@ -79,8 +79,6 @@ def data2tune(file_path, k, label):
     file.close()
     
     return result.strip()
-    
-    return result
 
 if __name__ == "__main__":
     if not len(sys.argv) in range (4, 6):
