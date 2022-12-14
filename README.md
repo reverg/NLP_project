@@ -2,7 +2,7 @@
 
 ### Member
 2019-13773 Kyungjin Kim  
-2018-18574 Junyoung Park  
+2018-18574 Junyoung Park ([@engineerA314](https://github.com/engineerA314))  
 2018-12018 Sungmin Song  
 
 ### Abstract
