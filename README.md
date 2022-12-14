@@ -3,7 +3,7 @@
 ### Member
 2019-13773 Kyungjin Kim  
 2018-18574 Junyoung Park ([@engineerA314](https://github.com/engineerA314))  
-2018-12018 Sungmin Song  
+2018-12018 Sungmin Song  ([@reverg](https://github.com/reverg))  
 
 ### Abstract
 
@@ -74,7 +74,7 @@ Result
   
 |Accuracy|Precision|Recall|  
 |:---:|:---:|:---:|  
-||||
+|0.824|0.793|0.876|
   
   
 #### 4. window GRU
@@ -95,7 +95,7 @@ Result
   
 |Accuracy|Precision|Recall|  
 |:---:|:---:|:---:|  
-||||
+|0.731|0.716|0.765|
   
   
 #### 5. DNABERT + 1 Linear layer
@@ -114,27 +114,28 @@ Result
   
 |Accuracy|Precision|Recall|  
 |:---:|:---:|:---:|  
-||||
+|0.886|0.841|0.952|
   
   
 
 #### 6. DNABERT + 2 Linear layer
 How to run  
-  1)   
-  2)
+  1) Upload the elements in 'DNABERT+2' directory to Google Drive.  
+  2) Run 'DNABERT_torch_2.ipynb' with GPU mode in Colab  
   
 Result
   1) Loss graph per epoch    
-  
+  ![dnabert+2 loss](https://user-images.githubusercontent.com/48681924/207695532-71b4fd88-94ab-46e9-a5ea-f3dd37022569.png)
+
     
   2) Accuracy graph per epoch  
-  
+  ![dnabert+2 accuracy](https://user-images.githubusercontent.com/48681924/207695413-550fe549-15a1-48cd-a77d-4bd391a92a47.png)
     
   3) Result for Test Set   
   
 |Accuracy|Precision|Recall|  
 |:---:|:---:|:---:|  
-||||
+|0.901|0.922|0.876|
   
   
 
