@@ -147,4 +147,12 @@ Result
 
 
 ### Conclusion
+- Pretrained Language Model can be applied on Promoter classification
+  - Outperformed the baseline, and possibility for better results
+- CNN itself has a nice performance 
+  - Good choice for limited computation source
+- RNN structure is inappropriate
+  - Slow training + Low performance
+  - Low merit for combining with CNN
+
 
