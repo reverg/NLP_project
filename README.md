@@ -1,19 +1,25 @@
 # 2022 fall SNU NLP project
 
 ### Member
-2019-13773 Kyungjin Kim  
+2019-13773 Kyungjin Kim  ([@jamesk617](https://github.com/jamesk617))  
 2018-18574 Junyoung Park ([@engineerA314](https://github.com/engineerA314))  
 2018-12018 Sungmin Song  ([@reverg](https://github.com/reverg))  
 
 ### Abstract
-
+We worked on promotor gene classifying task by using machinelearning method. CNN+GRU, CNN, GRU, windowGRU, DNABERT+1-linear, DNABERT+2-linear models are implemented. GRU models showed lowest accuracy and BERT based model showed meaningful increment.
 
 ### Motivation
-As natural language process technology has shown remarkable progress, now it is applied in not only the human language, but also for many other sequence data such as DNA. DNA is the key-element of the Central Dogma principle in biology and it is also a core for many medical science task like immune profiling. (RNA and protein sequences are also the non-revealed sequence code of human). One of important DNA target is promotor gene. Promotor gene is area that RNA transcription factors gets bonded into, so it is necessary to reveal the pattern of it for DNA study. As so, it is representative example for DNA-NLP task and - therefore we chose promotor gene classifying task as our project subject. We believe that these kind of experiences can help us to understand more deeply in how machine learning on sequence datas are progressed, and to be more flexible researchers so that we can engage into various tasks in the world. 
+As natural language process technology has shown remarkable progress, now it is applied in not only the human language, but also for many other sequence data such as DNA. DNA is the key-element of the Central Dogma principle in biology and it is also a core for many medical science task like immune profiling.
+
+One of important DNA target is promotor gene. Promotor gene is area that RNA transcription factors gets bonded into, so it is necessary to reveal the pattern of it for DNA study. As so, it is representative example for DNA-NLP task.
+
+Therefore we chose promotor gene classifying task as our project subject. We believe that these kind of experiences can help us to understand more deeply in how machine learning on sequence datas are progressed, and to be more flexible researchers so that we can engage into various tasks in the world. 
   
   
 ### Idea
+Baseline model of our project’s reference was CNN+GRU. We implemented CNN+GRU model and CNN only, GRU only model and BERT for comparison. Plus, we also used few variations for each models for broad practicing. 
 
+Our first goal was to improve the accuracy of the task by finding other appropriate model and second goal was to practice various machine learning method by implementing codes.
 
 ### Experiments & Result
 
@@ -38,8 +44,7 @@ Result
   
 #### 2. only CNN
 How to run  
-  1)   
-  2)
+  1) Run 'onlyCNN.ipynb'
   
 Result
   1) Loss graph per epoch    
@@ -52,7 +57,7 @@ Result
   
 |Accuracy|Precision|Recall|  
 |:---:|:---:|:---:|  
-||||
+|0.871|0.896|0.839|
   
   
 
