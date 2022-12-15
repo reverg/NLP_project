@@ -48,11 +48,11 @@ How to run
   
 Result
   1) Loss graph per epoch    
-  
+  ![only CNN loss](https://user-images.githubusercontent.com/107937875/207784872-86446e65-b872-4624-a2f0-bbddab2edecb.png)
     
   2) Accuracy graph per epoch  
-  
-    
+  ![only CNN accuracy](https://user-images.githubusercontent.com/107937875/207784883-2732a530-dfd6-43f7-904b-bac7c459cdf6.png)
+
   3) Result for Test Set   
   
 |Accuracy|Precision|Recall|  
